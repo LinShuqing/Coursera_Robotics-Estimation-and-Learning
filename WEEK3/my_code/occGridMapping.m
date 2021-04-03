@@ -9,11 +9,11 @@ function myMap = occGridMapping(ranges, scanAngles, pose, param)
 % Parameters 
 % 
 % % the number of grids for 1 meter.
-% myResol = param.resol;
+myResol = param.resol;
 % % the initial map size in pixels
-% myMap = zeros(param.size);
+myMap = zeros(param.size);
 % % the origin of the map in pixels
-% myorigin = param.origin; 
+myorigin = param.origin; 
 % 
 % % 4. Log-odd parameters 
 % lo_occ = param.lo_occ;
